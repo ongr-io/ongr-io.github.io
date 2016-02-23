@@ -1178,7 +1178,9 @@ body {
     width: 31.76157%;
     padding-bottom: 32px
 }
-
+.ongr-solutions .solution-holder .developer-item {
+    width: 21%; margin-left: 2%;margin-right: 2%;
+}
 .ongr-solutions .solution-holder .solution-item:last-child {
     margin-right: 0
 }
