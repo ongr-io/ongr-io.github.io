@@ -887,7 +887,48 @@ body {
         padding: 35px 0
     }
 }
-
+.enterprise-icon {
+    margin-right: 4px;
+}
+.enterprise-column {
+    display: inline-block;
+    width: 48%;
+}
+.enterprise-column ul {
+    margin-left: 30%;
+    width: 60%;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+}
+.enterprise-column ul li {
+    margin-top: 15px;
+}
+.enterprise-column .enterp-contacts {
+    margin-left: 30%;
+}
+@media screen and (max-width: 1050px) {
+    .enterprise-column ul {
+        margin-left: 10%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .enterprise-column {
+        width: 98%;
+    }
+    .enterprise-column ul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .enterprise-column .enterp-contacts {
+        margin-left: 0;
+    }
+}
 .ongr-problems .problem-col .problem-img strong, .ongr-problems .problem-col h4 {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
@@ -977,30 +1018,6 @@ body {
     transition: opacity .6s ease-in-out;
     width: 100%;
     z-index: 2
-}
-
-.ongr-problems .problem-col .problem-img.img-speed {
-    background-image: url(../img/problem-speed.jpg)
-}
-
-.ongr-problems .problem-col .problem-img.img-speed span {
-    background-image: url(../img/problem-speed-c.jpg)
-}
-
-.ongr-problems .problem-col .problem-img.img-ux {
-    background-image: url(../img/problem-ux.jpg)
-}
-
-.ongr-problems .problem-col .problem-img.img-ux span {
-    background-image: url(../img/problem-ux-c.jpg)
-}
-
-.ongr-problems .problem-col .problem-img.img-scaling {
-    background-image: url(../img/problem-scaling.jpg)
-}
-
-.ongr-problems .problem-col .problem-img.img-scaling span {
-    background-image: url(../img/problem-scaling-c.jpg)
 }
 
 .ongr-problems .problem-col .problem-img:hover span {
