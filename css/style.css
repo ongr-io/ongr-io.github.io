@@ -2498,14 +2498,14 @@ p:last-child {
     height: 80px
 }
 .ongr-sprite-icon-stack {
-    background-image: url(../img/icon-sprites-2.png);
+    background-image: url(../img/icon-sprites.png);
     background-repeat: no-repeat;
     background-position: -160px -80px;
     width: 80px;
     height: 80px
 }
 .ongr-sprite-icon-documentation {
-    background-image: url(../img/icon-sprites-2.png);
+    background-image: url(../img/icon-sprites.png);
     background-repeat: no-repeat;
     background-position: -80px -80px;
     width: 80px;
@@ -2562,7 +2562,7 @@ p:last-child {
     height: 27px
 }
 .ongr-sprite-icon-doc {
-    background-image: url(../img/icon-sprites-2.png);
+    background-image: url(../img/icon-sprites.png);
     background-repeat: no-repeat;
     background-position: -240px -162px;
     width: 27px;
