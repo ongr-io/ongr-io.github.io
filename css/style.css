@@ -272,8 +272,9 @@ td, th {
 }
 
 .section-headline.headline-solution {
-    font-size: 90px;
-    line-height: 90px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
     margin-bottom: 38px
 }
 
