@@ -250,7 +250,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="https://github.com/ongr-io" target="_blank" class="ongr-btn btn-full">Go to the source</a>
+                        <a href="https://github.com/ongr-io" target="_blank" class="ongr-btn btn-full" id="github">Go to the source</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -259,7 +259,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://docs.ongr.io/" target="_blank" class="ongr-btn btn-full">Learn</a>
+                        <a href="http://docs.ongr.io/" target="_blank" class="ongr-btn btn-full" id="documentation">Learn</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -268,7 +268,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://docs.ongr.io/common/README" target="_blank" class="ongr-btn btn-full">Try it!</a>
+                        <a href="http://docs.ongr.io/common/README" target="_blank" class="ongr-btn btn-full" id="install">Try it!</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -277,7 +277,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://demo.ongr.io/" target="_blank" class="ongr-btn btn-full">Check it out</a>
+                        <a href="http://demo.ongr.io/" target="_blank" class="ongr-btn btn-full" id="demoshop">Check it out</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -286,7 +286,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://stackoverflow.com/tags/ongr/info" target="_blank" class="ongr-btn btn-full">Ask</a>
+                        <a href="http://stackoverflow.com/tags/ongr/info" target="_blank" class="ongr-btn btn-full" id="stackoverflow">Ask</a>
                     </div>
                 </div>
             </div>
@@ -389,6 +389,22 @@
         });
         $('#simonas').on('click', function(){
             ga('send', 'event', 'Contact buttons', 'Simonas');
+        });
+        // Start here
+        $('#github').on('click', function(){
+            ga('send', 'event', 'Start here section', 'GitHub');
+        });
+        $('#documentation').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Documentation');
+        });
+        $('#install').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Install instructions');
+        });
+        $('#demoshop').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Demoshop');
+        });
+        $('#stackoverflow').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Stackoverflow');
         });
     });
 </script>
