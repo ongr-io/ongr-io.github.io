@@ -163,17 +163,17 @@
                     <div class="team-item" data-sr="fade in over 0.6s">
                         <img class="team-image" src="img/Lars_Jankowfsky.png"/>
                         <span >Lars, CTO, For business and partnership</span>
-                        <a href="mailto:lars@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:lars@nfq.com" class="ongr-btn btn-full" id="lars">Contact</a>
                     </div>
                     <div class="team-item" data-sr="wait 0.3s then fade in over 0.6s">
                         <img class="team-image" src="img/Dainius_Bigelis.png"/>
                         <span>Dainius, Product Owner, for vision and product</span>
-                        <a href="mailto:dainius.bigelis@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:dainius.bigelis@nfq.com" class="ongr-btn btn-full" id="dainius">Contact</a>
                     </div>
                     <div class="team-item" data-sr="wait 0.6s then fade in over 0.6s">
                         <img class="team-image" src="img/Simonas_Serlinskas.png"/>
                         <span>Simonas, Lead developer, anything from the tech side</span>
-                        <a href="mailto:simonas.serlinskas@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:simonas.serlinskas@nfq.com" class="ongr-btn btn-full" id="simonas">Contact</a>
                     </div>
                 </div>
             </div>
@@ -379,6 +379,16 @@
         });
         $('.get-started-top').on('click', function () {
             ga('send', 'event', 'Header links', 'Start here');
+        });
+        // Contacts
+        $('#lars').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Lars');
+        });
+        $('#dainius').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Dainius');
+        });
+        $('#simonas').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Simonas');
         });
     });
 </script>
