@@ -33,10 +33,10 @@
         <div class="ongr-container">
             <a href="/" class="logo-holder"></a>
             <ul>
-                <li data-section="overview"><a href="javascript:void(0);">What is ONGR</a></li>
-                <li data-section="solutions"><a href="javascript:void(0);">Why</a></li>
-                <li data-section="enterprise-plan"><a href="javascript:void(0);">Enterprise plan</a></li>
-                <li data-section="get-started"><a href="javascript:void(0);">Start Here!</a></li>
+                <li data-section="overview"><a href="javascript:void(0);" class="overview-top">What is ONGR</a></li>
+                <li data-section="solutions"><a href="javascript:void(0);"class="solutions-top">Why</a></li>
+                <li data-section="enterprise-plan"><a href="javascript:void(0);" class="enterprise-top">Enterprise plan</a></li>
+                <li data-section="get-started"><a href="javascript:void(0);" class="get-started-top">Start Here!</a></li>
             </ul>
             <a href="javascript:void(0);" class="mobile-menu"><span></span></a>
         </div>
@@ -46,10 +46,10 @@
         <nav class="mainmenu ongr-container">
             <a href="/" class="logo-holder"></a>
             <ul>
-                <li data-section="overview"><a href="javascript:void(0);">What is ONG</a></li>
-                <li data-section="solutions"><a href="javascript:void(0);">Why</a></li>
-                <li data-section="enterprise-plan"><a href="javascript:void(0);">Enterprise plan</a></li>
-                <li data-section="get-started"><a href="javascript:void(0);">Start Here!</a></li>
+                <li data-section="overview"><a href="javascript:void(0);" class="overview-top">What is ONG</a></li>
+                <li data-section="solutions"><a href="javascript:void(0);" class="solutions-top">Why</a></li>
+                <li data-section="enterprise-plan"><a href="javascript:void(0);" class="enterprise-top">Enterprise plan</a></li>
+                <li data-section="get-started"><a href="javascript:void(0);" class="get-started-top">Start Here!</a></li>
             </ul>
             <a href="#" class="mobile-menu"><span></span></a>
         </nav>
@@ -364,6 +364,23 @@
   ga('create', 'UA-74369470-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+    $('document').ready(function() {
+        // Header elements
+        $('.overview-top').on('click', function () {
+            ga('send', 'event', 'header links', 'What is ONGR');
+        });
+        $('.solutions-top').on('click', function () {
+            ga('send', 'event', 'header links', 'Why');
+        });
+        $('.enterprise-top').on('click', function () {
+            ga('send', 'event', 'header links', 'Enterprise');
+        });
+        $('.get-started-top').on('click', function () {
+            ga('send', 'event', 'Header links', 'Start here');
+        });
+    });
 </script>
 </body>
 
