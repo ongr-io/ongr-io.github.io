@@ -33,10 +33,10 @@
         <div class="ongr-container">
             <a href="/" class="logo-holder"></a>
             <ul>
-                <li data-section="overview"><a href="javascript:void(0);">What is ONGR</a></li>
-                <li data-section="solutions"><a href="javascript:void(0);">Why</a></li>
-                <li data-section="enterprise-plan"><a href="javascript:void(0);">Enterprise plan</a></li>
-                <li data-section="get-started"><a href="javascript:void(0);">Start Here!</a></li>
+                <li data-section="overview"><a href="javascript:void(0);" class="overview-top">What is ONGR</a></li>
+                <li data-section="solutions"><a href="javascript:void(0);"class="solutions-top">Why</a></li>
+                <li data-section="enterprise-plan"><a href="javascript:void(0);" class="enterprise-top">Enterprise plan</a></li>
+                <li data-section="get-started"><a href="javascript:void(0);" class="get-started-top">Start Here!</a></li>
             </ul>
             <a href="javascript:void(0);" class="mobile-menu"><span></span></a>
         </div>
@@ -46,10 +46,10 @@
         <nav class="mainmenu ongr-container">
             <a href="/" class="logo-holder"></a>
             <ul>
-                <li data-section="overview"><a href="javascript:void(0);">What is ONG</a></li>
-                <li data-section="solutions"><a href="javascript:void(0);">Why</a></li>
-                <li data-section="enterprise-plan"><a href="javascript:void(0);">Enterprise plan</a></li>
-                <li data-section="get-started"><a href="javascript:void(0);">Start Here!</a></li>
+                <li data-section="overview"><a href="javascript:void(0);" class="overview-top">What is ONG</a></li>
+                <li data-section="solutions"><a href="javascript:void(0);" class="solutions-top">Why</a></li>
+                <li data-section="enterprise-plan"><a href="javascript:void(0);" class="enterprise-top">Enterprise plan</a></li>
+                <li data-section="get-started"><a href="javascript:void(0);" class="get-started-top">Start Here!</a></li>
             </ul>
             <a href="#" class="mobile-menu"><span></span></a>
         </nav>
@@ -163,17 +163,17 @@
                     <div class="team-item" data-sr="fade in over 0.6s">
                         <img class="team-image" src="img/Lars_Jankowfsky.png"/>
                         <span >Lars, CTO, For business and partnership</span>
-                        <a href="mailto:lars@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:lars@nfq.com" class="ongr-btn btn-full" id="lars">Contact</a>
                     </div>
                     <div class="team-item" data-sr="wait 0.3s then fade in over 0.6s">
                         <img class="team-image" src="img/Dainius_Bigelis.png"/>
                         <span>Dainius, Product Owner, for vision and product</span>
-                        <a href="mailto:dainius.bigelis@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:dainius.bigelis@nfq.com" class="ongr-btn btn-full" id="dainius">Contact</a>
                     </div>
                     <div class="team-item" data-sr="wait 0.6s then fade in over 0.6s">
                         <img class="team-image" src="img/Simonas_Serlinskas.png"/>
                         <span>Simonas, Lead developer, anything from the tech side</span>
-                        <a href="mailto:simonas.serlinskas@nfq.com" class="ongr-btn btn-full">Contact</a>
+                        <a href="mailto:simonas.serlinskas@nfq.com" class="ongr-btn btn-full" id="simonas">Contact</a>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="https://github.com/ongr-io" target="_blank" class="ongr-btn btn-full">Go to the source</a>
+                        <a href="https://github.com/ongr-io" target="_blank" class="ongr-btn btn-full" id="github">Go to the source</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -259,7 +259,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://docs.ongr.io/" target="_blank" class="ongr-btn btn-full">Learn</a>
+                        <a href="http://docs.ongr.io/" target="_blank" class="ongr-btn btn-full" id="documentation">Learn</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -268,7 +268,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://docs.ongr.io/common/README" target="_blank" class="ongr-btn btn-full">Try it!</a>
+                        <a href="http://docs.ongr.io/common/README" target="_blank" class="ongr-btn btn-full" id="install">Try it!</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -277,7 +277,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://demo.ongr.io/" target="_blank" class="ongr-btn btn-full">Check it out</a>
+                        <a href="http://demo.ongr.io/" target="_blank" class="ongr-btn btn-full" id="demoshop">Check it out</a>
                     </div>
                 </div>
                 <div class="tech-col match-height">
@@ -286,7 +286,7 @@
                     <p></p>
 
                     <div class="btn-holder">
-                        <a href="http://stackoverflow.com/tags/ongr/info" target="_blank" class="ongr-btn btn-full">Ask</a>
+                        <a href="http://stackoverflow.com/tags/ongr/info" target="_blank" class="ongr-btn btn-full" id="stackoverflow">Ask</a>
                     </div>
                 </div>
             </div>
@@ -303,17 +303,17 @@
                             <!--<li><a href="#">About us</a></li>
                             <li><a href="#">Team</a></li>
                             <li><a href="#">News</a></li>-->
-                            <li><a href="mailto:info@ongr.io">Contact Us</a></li>
+                            <li><a href="mailto:info@ongr.io" id="contact-footer">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="link-col match-height">
                         <strong>Resources</strong>
 
                         <ul>
-                            <li><a href="https://github.com/ongr-io" target="_blank">Github</a></li>
-                            <li><a href="http://docs.ongr.io/" target="_blank">Documentation</a></li>
-                            <li><a href="http://docs.ongr.io/common/README" target="_blank">Install</a></li>
-                            <li><a href="http://demo.ongr.io" target="_blank">Demoshop</a></li>
+                            <li><a href="https://github.com/ongr-io" target="_blank" id="github-footer">Github</a></li>
+                            <li><a href="http://docs.ongr.io/" target="_blank" id="doc-footer">Documentation</a></li>
+                            <li><a href="http://docs.ongr.io/common/README" target="_blank" id="install-footer">Install</a></li>
+                            <li><a href="http://demo.ongr.io" target="_blank" id="demo-footer">Demoshop</a></li>
                             <!--<li><a href="#">Help</a></li>-->
                         </ul>
                     </div>
@@ -321,8 +321,7 @@
                         <strong>Legal</strong>
 
                         <ul>
-                            <li><a href="javascript:void(0);" onclick="window.open('imprint.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">Imprint</a></li>
-                            <li><a href="javascript:void(0);" onclick="window.open('license.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">License</a></li>
+                            <li><a href="javascript:void(0);" id="imprtint-footer" onclick="window.open('imprint.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">Imprint</a></li>
                         </ul>
                     </div>
                     <div class="link-col match-height">
@@ -364,6 +363,68 @@
   ga('create', 'UA-74369470-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+    $('document').ready(function() {
+        // Header elements
+        $('.overview-top').on('click', function () {
+            ga('send', 'event', 'header links', 'What is ONGR');
+        });
+        $('.solutions-top').on('click', function () {
+            ga('send', 'event', 'header links', 'Why');
+        });
+        $('.enterprise-top').on('click', function () {
+            ga('send', 'event', 'header links', 'Enterprise');
+        });
+        $('.get-started-top').on('click', function () {
+            ga('send', 'event', 'Header links', 'Start here');
+        });
+        // Contacts
+        $('#lars').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Lars');
+        });
+        $('#dainius').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Dainius');
+        });
+        $('#simonas').on('click', function(){
+            ga('send', 'event', 'Contact buttons', 'Simonas');
+        });
+        // Start here
+        $('#github').on('click', function(){
+            ga('send', 'event', 'Start here section', 'GitHub');
+        });
+        $('#documentation').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Documentation');
+        });
+        $('#install').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Install instructions');
+        });
+        $('#demoshop').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Demoshop');
+        });
+        $('#stackoverflow').on('click', function(){
+            ga('send', 'event', 'Start here section', 'Stackoverflow');
+        });
+        // Footer
+        $('#contact-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Contact us');
+        });
+        $('#github-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Github');
+        });
+        $('#doc-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Documentation');
+        });
+        $('#install-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Install');
+        });
+        $('#demo-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Demoshop');
+        });
+        $('#imprtint-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Imprint');
+        });
+    });
 </script>
 </body>
 

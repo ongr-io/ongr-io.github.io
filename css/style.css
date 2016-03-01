@@ -2652,3 +2652,18 @@ p:last-child {
         background-size: 267px 240px
     }
 }
+.imprint-column {
+    display: inline-block;
+    text-align: left;
+    width: 25%;
+}
+@media screen and (max-width: 1000px) {
+    .imprint-column {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .imprint-column {
+        width: 90%;
+    }
+}
