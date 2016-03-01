@@ -303,17 +303,17 @@
                             <!--<li><a href="#">About us</a></li>
                             <li><a href="#">Team</a></li>
                             <li><a href="#">News</a></li>-->
-                            <li><a href="mailto:info@ongr.io">Contact Us</a></li>
+                            <li><a href="mailto:info@ongr.io" id="contact-footer">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="link-col match-height">
                         <strong>Resources</strong>
 
                         <ul>
-                            <li><a href="https://github.com/ongr-io" target="_blank">Github</a></li>
-                            <li><a href="http://docs.ongr.io/" target="_blank">Documentation</a></li>
-                            <li><a href="http://docs.ongr.io/common/README" target="_blank">Install</a></li>
-                            <li><a href="http://demo.ongr.io" target="_blank">Demoshop</a></li>
+                            <li><a href="https://github.com/ongr-io" target="_blank" id="github-footer">Github</a></li>
+                            <li><a href="http://docs.ongr.io/" target="_blank" id="doc-footer">Documentation</a></li>
+                            <li><a href="http://docs.ongr.io/common/README" target="_blank" id="install-footer">Install</a></li>
+                            <li><a href="http://demo.ongr.io" target="_blank" id="demo-footer">Demoshop</a></li>
                             <!--<li><a href="#">Help</a></li>-->
                         </ul>
                     </div>
@@ -321,8 +321,7 @@
                         <strong>Legal</strong>
 
                         <ul>
-                            <li><a href="javascript:void(0);" onclick="window.open('imprint.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">Imprint</a></li>
-                            <li><a href="javascript:void(0);" onclick="window.open('license.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">License</a></li>
+                            <li><a href="javascript:void(0);" id="imprtint-footer" onclick="window.open('imprint.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=500, left=500, width=480, height=512');">Imprint</a></li>
                         </ul>
                     </div>
                     <div class="link-col match-height">
@@ -405,6 +404,25 @@
         });
         $('#stackoverflow').on('click', function(){
             ga('send', 'event', 'Start here section', 'Stackoverflow');
+        });
+        // Footer
+        $('#contact-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Contact us');
+        });
+        $('#github-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Github');
+        });
+        $('#doc-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Documentation');
+        });
+        $('#install-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Install');
+        });
+        $('#demo-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Demoshop');
+        });
+        $('#imprtint-footer').on('click', function(){
+            ga('send', 'event', 'Footer links', 'Imprint');
         });
     });
 </script>
