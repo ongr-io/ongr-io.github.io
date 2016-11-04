@@ -942,6 +942,27 @@ body {
     margin-left: 30%;
 }
 
+.bundle-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 48%;
+    height: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bundle-info h3 {
+    color: #ff6c00;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+.ongr-bundles .built-for-column {
+    margin-bottom: 50px;
+}
+
 .built-for-column {
     display: inline-block;
     text-align: left;
