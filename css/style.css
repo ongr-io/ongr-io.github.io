@@ -836,15 +836,12 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-    .team-item{
+    .team-item {
         margin-left: 1%;
         margin-right: 1%;
         width: 48%;
     }
-    .team-item:last-child{
-        margin-left: 26%;
-        margin-right: 26%;
-    }
+
     .ongr-intro .section-headline {
         width: 100%;
         margin-left: 0
@@ -865,29 +862,6 @@ body {
         margin-bottom: 12px;
         width: 48%
     }
-    .ongr-intro .intro-support .support-item:last-child{
-        margin-left: 26%;
-        margin-right: 26%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .ongr-intro {
-        margin-bottom: 35px;
-        padding-top: 35px
-    }
-
-    .ongr-intro .section-subheadline {
-        margin-bottom: 32px
-    }
-    .ongr-intro .intro-support .support-item {
-        width: 100%;
-        margin-bottom: 24px
-    }
-    .ongr-intro .intro-support .support-item:last-child {
-        margin-left:0;
-    }
-
 }
 
 .ongr-full-usps {
@@ -1995,11 +1969,6 @@ body {
         width: 40%
     }
 
-    .ongr-techdocu .tech-holder .tech-col:last-child {
-        margin-right: 30%;
-        margin-left: 30%;
-    }
-
     .ongr-techdocu .tech-holder .tech-col p {
         padding: 0
     }
@@ -2776,5 +2745,56 @@ p:last-child {
 
     .ongr-enterprise .ongr-container-tech .enterprise-column .section-headline {
         font-size: 50px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ongr-intro .intro-notebooks {
+        background-size: 400px;
+        height: 360px;
+        width: 100%
+    }
+
+    .ongr-intro .intro-text {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .ongr-intro .section-headline {
+        width: 86%;
+        margin-left: 7%;
+        margin-top: 0px;
+    }
+
+    .ongr-intro .intro-support .support-item {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .intro-support .built-for-column ul {
+        padding-left: 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .bundle-info {
+        max-height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ongr-intro .section-headline {
+        width: 100%;
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    .bundle-info {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 90%;
+        max-height: 350px;
     }
 }
