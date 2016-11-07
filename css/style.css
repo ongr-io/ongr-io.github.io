@@ -949,6 +949,9 @@ body {
     vertical-align: top;
 }
 
+.bundle-info h3 a{
+    color: #ff6c00;
+}
 .bundle-info h3 {
     color: #ff6c00;
     font-weight: 100;
