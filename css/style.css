@@ -285,6 +285,14 @@ td, th {
         margin-bottom: 40px
     }
 
+    .ongr-sprite-symfony{
+        background-size: 350px;
+    }
+
+    .ongr-sprite-elasticsearch{
+        background-size: 350px;
+    }
+
     .section-headline em:after, .section-headline em:before {
         width: 64px
     }
@@ -945,10 +953,10 @@ body {
 .enterprise-column .enterp-contacts {
     margin-left: 30%;
 }
-.enterp-column {
+.enterprise-column {
     width: 45%;
     margin-left: 2.5%;
-    margin-top: 2.5%;
+    margin-right: 2.3%;
     display: inline-block;
     vertical-align: top;
 }
@@ -1976,10 +1984,6 @@ body {
         margin-left: 5%;
         width: 40%
     }
-    .ongr-techdocu .tech-holder .tech-col:last-child {
-        margin-right: 30%;
-        margin-left: 30%;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -2741,13 +2745,36 @@ p:last-child {
     text-align: left;
     width: 25%;
 }
-@media screen and (max-width: 1000px) {
-    .imprint-column {
-        width: 45%;
-    }
-}
+
 @media screen and (max-width: 520px) {
     .imprint-column {
         width: 90%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .imprint-column {
+        width: 45%;
+    }
+
+    .ongr-sprite-symfony {
+        background-size: 350px;
+    }
+
+    .ongr-sprite-elasticsearch {
+        background-size: 350px;
+    }
+
+    .ongr-intro .intro-notebooks {
+        background-size: 400px;
+    }
+
+    .bundle-info {
+        height: auto;
+        margin-bottom: 10px;
+        max-height: 290px;
+    }
+
+    .ongr-enterprise .ongr-container-tech .enterprise-column .section-headline {
+        font-size: 50px !important
     }
 }
