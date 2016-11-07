@@ -669,6 +669,10 @@ body {
     text-align: center
 }
 
+.key-features {
+    margin-top: 50px;
+}
+
 .ongr-intro .intro-notebooks {
     background: url(../img/intro-notebooks.png) bottom center no-repeat;
     background-size: 440px;
