@@ -943,8 +943,9 @@ body {
 .bundle-info {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
     width: 48%;
-    height: 220px;
+    max-height: 220px;
     display: inline-block;
     vertical-align: top;
 }
@@ -1626,17 +1627,6 @@ body {
 
 .ongr-timereduction .time-col:first-child ol {
     position: relative
-}
-
-.ongr-timereduction .time-col:first-child ol:before {
-    background: url(../img/swoosh-arrow.png) center center no-repeat;
-    content: "\0020";
-    display: block;
-    height: 57px;
-    left: -40px;
-    position: absolute;
-    top: 10px;
-    width: 35px
 }
 
 .ongr-timereduction .time-col:last-child {
