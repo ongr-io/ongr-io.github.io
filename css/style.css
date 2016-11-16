@@ -286,11 +286,11 @@ td, th {
     }
 
     .ongr-sprite-symfony{
-        background-size: 350px;
+        background-size: 200px;
     }
 
     .ongr-sprite-elasticsearch{
-        background-size: 350px;
+        background-size: 200px;
     }
 
     .section-headline em:after, .section-headline em:before {
@@ -705,6 +705,7 @@ body {
 
 .ongr-intro .intro-text .section-subheadline img{
     position: relative;
+    padding-left: 7px;
     top: 16px;
     height: 50px;
 }
@@ -767,7 +768,7 @@ body {
 }
 
 .ongr-intro .intro-support .support-headline:before {
-    background: #000;
+    background: #e4e4e4;
     content: "\0020";
     height: 1px;
     left: 0;
@@ -972,8 +973,9 @@ body {
     width: 48%;
 }
 .built-for-column ul {
-    margin-left: 6%;
-    width: 80%;
+    margin-left: 15%;
+    padding-left: 0px;
+    width: 85%;
     list-style-type: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
@@ -984,6 +986,7 @@ body {
 }
 .built-for-column ul li {
     margin-top: 15px;
+    font-size: 22px;
 }
 .built-for-column .enterp-contacts {
     margin-left: 30%;
@@ -1259,6 +1262,7 @@ body {
 }
 
 .ongr-solutions .section-headline {
+    margin-top: 50px;
     margin-bottom: 50px
 }
 
@@ -2548,12 +2552,12 @@ p:last-child {
 }
 .ongr-sprite-symfony{
     background-image: url(../img/symfony.png);
-    background-size: 400px;
+    background-size: 270px;
     background-repeat: no-repeat
 }
 .ongr-sprite-elasticsearch{
     background-image: url(../img/elasticsearch.png);
-    background-size: 400px;
+    background-size: 270px;
     background-repeat: no-repeat
 }
 .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
@@ -2594,7 +2598,7 @@ p:last-child {
 }
 
 .ongr-sprite-elasticsearch {
-    width: 400px;
+    width: 270px;
     height: 172px
 }
 
@@ -2623,7 +2627,7 @@ p:last-child {
 }
 
 .ongr-sprite-symfony {
-    width: 400px;
+    width: 270px;
     height: 172px
 }
 
@@ -2673,12 +2677,12 @@ p:last-child {
 @media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min--moz-device-pixel-ratio: 1), screen and (-o-min-device-pixel-ratio: 100 / 100), screen and (min-device-pixel-ratio: 1), screen and (-o-min-device-pixel-ratio: 1/1), screen and (min-resolution: 1dppx) {
     .ongr-sprite-symfony{
         background-image: url(../img/symfony.png);
-        background-size: 400px;
+        background-size: 270px;
         background-repeat: no-repeat
     }
     .ongr-sprite-elasticsearch{
         background-image: url(../img/elasticsearch.png);
-        background-size: 400px;
+        background-size: 270px;
         background-repeat: no-repeat
     }
     .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
@@ -2690,12 +2694,12 @@ p:last-child {
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 200 / 100), screen and (min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .ongr-sprite-symfony{
         background-image: url(../img/symfony.png);
-        background-size: 400px;
+        background-size: 270px;
         background-repeat: no-repeat
     }
     .ongr-sprite-elasticsearch{
         background-image: url(../img/elasticsearch.png);
-        background-size: 400px;
+        background-size: 270px;
         background-repeat: no-repeat
     }
     .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
@@ -2719,11 +2723,11 @@ p:last-child {
     }
 
     .ongr-sprite-symfony {
-        background-size: 350px;
+        background-size: 200px;
     }
 
     .ongr-sprite-elasticsearch {
-        background-size: 350px;
+        background-size: 200px;
     }
 
     .ongr-intro .intro-notebooks {
