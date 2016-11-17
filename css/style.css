@@ -285,6 +285,14 @@ td, th {
         margin-bottom: 40px
     }
 
+    .ongr-sprite-symfony{
+        background-size: 200px;
+    }
+
+    .ongr-sprite-elasticsearch{
+        background-size: 200px;
+    }
+
     .section-headline em:after, .section-headline em:before {
         width: 64px
     }
@@ -669,11 +677,42 @@ body {
     text-align: center
 }
 
+.key-features {
+    margin-top: 50px;
+}
+
 .ongr-intro .intro-notebooks {
     background: url(../img/intro-notebooks.png) bottom center no-repeat;
-    background-size: 543px 344px;
+    background-size: 440px;
     height: 344px;
-    margin-bottom: 50px
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 0;
+    float: left;
+    width: 50%;
+}
+
+.ongr-intro .intro-text {
+    padding-top: 110px;
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+.ongr-intro .intro-text .section-subheadline{
+    line-height: 50px;
+}
+
+.ongr-intro .intro-text .section-subheadline img{
+    position: relative;
+    padding-left: 7px;
+    top: 16px;
+    height: 50px;
+}
+
+.ongr-intro .intro-text .section-subheadline span{
+    font-style: italic;
+    font-weight: 900;
 }
 
 .ongr-intro .section-headline {
@@ -681,7 +720,9 @@ body {
     display: block;
     width: 70.14568%;
     color: #ff6c00;
-    margin: 0 2.35765% 28px 14.92716%
+    margin-left: 14.92716%;
+    margin-top: 70px;
+    margin-bottom: 28px;
 }
 
 .ongr-intro .section-headline:last-child {
@@ -727,7 +768,7 @@ body {
 }
 
 .ongr-intro .intro-support .support-headline:before {
-    background: #000;
+    background: #e4e4e4;
     content: "\0020";
     height: 1px;
     left: 0;
@@ -741,9 +782,11 @@ body {
 .ongr-intro .intro-support .support-item {
     float: left;
     display: block;
-    margin-left: 1.555%;
-    margin-right: 1.555%;
-    width: 30.222%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 47%;
     color: #444
 }
 .team-item{
@@ -794,15 +837,12 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-    .team-item{
+    .team-item {
         margin-left: 1%;
         margin-right: 1%;
         width: 48%;
     }
-    .team-item:last-child{
-        margin-left: 26%;
-        margin-right: 26%;
-    }
+
     .ongr-intro .section-headline {
         width: 100%;
         margin-left: 0
@@ -823,29 +863,6 @@ body {
         margin-bottom: 12px;
         width: 48%
     }
-    .ongr-intro .intro-support .support-item:last-child{
-        margin-left: 26%;
-        margin-right: 26%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .ongr-intro {
-        margin-bottom: 35px;
-        padding-top: 35px
-    }
-
-    .ongr-intro .section-subheadline {
-        margin-bottom: 32px
-    }
-    .ongr-intro .intro-support .support-item {
-        width: 100%;
-        margin-bottom: 24px
-    }
-    .ongr-intro .intro-support .support-item:last-child {
-        margin-left:0;
-    }
-
 }
 
 .ongr-full-usps {
@@ -909,6 +926,69 @@ body {
     margin-top: 15px;
 }
 .enterprise-column .enterp-contacts {
+    margin-left: 30%;
+}
+.enterprise-column {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.3%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.team-item {
+    width: 32%;
+    margin-left: 34%;
+}
+
+.bundle-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 48%;
+    max-height: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bundle-info h3 a{
+    color: #ff6c00;
+}
+.bundle-info h3 {
+    color: #ff6c00;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+.ongr-bundles .built-for-column {
+    margin-bottom: 50px;
+}
+
+.built-for-column {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 48%;
+}
+.built-for-column ul {
+    margin-left: 15%;
+    padding-left: 0px;
+    width: 85%;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+}
+.built-for-column ul li {
+    margin-top: 15px;
+    font-size: 22px;
+}
+.built-for-column .enterp-contacts {
     margin-left: 30%;
 }
 @media screen and (max-width: 1050px) {
@@ -1182,7 +1262,12 @@ body {
 }
 
 .ongr-solutions .section-headline {
+    margin-top: 50px;
     margin-bottom: 50px
+}
+
+.section-headline h2 {
+    margin-top: 50px
 }
 
 .ongr-solutions .solution-holder {
@@ -1548,17 +1633,6 @@ body {
     position: relative
 }
 
-.ongr-timereduction .time-col:first-child ol:before {
-    background: url(../img/swoosh-arrow.png) center center no-repeat;
-    content: "\0020";
-    display: block;
-    height: 57px;
-    left: -40px;
-    position: absolute;
-    top: 10px;
-    width: 35px
-}
-
 .ongr-timereduction .time-col:last-child {
     margin-right: 0
 }
@@ -1830,7 +1904,7 @@ body {
     display: block;
     margin-right: 1%;
     margin-left: 1%;
-    width: 18%;
+    width: 23%;
     padding-bottom: 70px;
     position: relative;
     text-align: center
@@ -1881,10 +1955,6 @@ body {
         margin-left: 5%;
         width: 40%
     }
-    .ongr-techdocu .tech-holder .tech-col:last-child {
-        margin-right: 30%;
-        margin-left: 30%;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1894,11 +1964,6 @@ body {
         margin-right: 5%;
         margin-left: 5%;
         width: 40%
-    }
-
-    .ongr-techdocu .tech-holder .tech-col:last-child {
-        margin-right: 30%;
-        margin-left: 30%;
     }
 
     .ongr-techdocu .tech-holder .tech-col p {
@@ -2485,16 +2550,14 @@ p:last-child {
     width: 120px;
     display: inline;
 }
-.ongr-sprite-circle-oxid{
-    background-image: url(../img/oxi_logo.png);
+.ongr-sprite-symfony{
+    background-image: url(../img/symfony.png);
+    background-size: 270px;
     background-repeat: no-repeat
 }
-.ongr-sprite-circle-magento{
-    background-image: url(../img/magento.png);
-    background-repeat: no-repeat
-}
-.ongr-sprite-circle-shopware{
-    background-image: url(../img/shopware-logo.png);
+.ongr-sprite-elasticsearch{
+    background-image: url(../img/elasticsearch.png);
+    background-size: 270px;
     background-repeat: no-repeat
 }
 .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
@@ -2534,9 +2597,9 @@ p:last-child {
     height: 80px
 }
 
-.ongr-sprite-circle-magento {
-    width: 80px;
-    height: 80px
+.ongr-sprite-elasticsearch {
+    width: 270px;
+    height: 172px
 }
 
 .ongr-sprite-circle-scale {
@@ -2557,20 +2620,15 @@ p:last-child {
     height: 80px
 }
 
-.ongr-sprite-circle-shopware {
-    width: 80px;
-    height: 80px
-}
-
 .ongr-sprite-circle-download {
     background-position: -80px -160px;
     width: 80px;
     height: 80px
 }
 
-.ongr-sprite-circle-oxid {
-    width: 80px;
-    height: 80px
+.ongr-sprite-symfony {
+    width: 270px;
+    height: 172px
 }
 
 .ongr-sprite-icon-ux {
@@ -2617,18 +2675,16 @@ p:last-child {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min--moz-device-pixel-ratio: 1), screen and (-o-min-device-pixel-ratio: 100 / 100), screen and (min-device-pixel-ratio: 1), screen and (-o-min-device-pixel-ratio: 1/1), screen and (min-resolution: 1dppx) {
-    .ongr-sprite-circle-oxid{
-        background-image: url(../img/oxi_logo.png);
+    .ongr-sprite-symfony{
+        background-image: url(../img/symfony.png);
+        background-size: 270px;
         background-repeat: no-repeat
     }
-    .ongr-sprite-circle-magento{
-        background-image: url(../img/magento.png);
+    .ongr-sprite-elasticsearch{
+        background-image: url(../img/elasticsearch.png);
+        background-size: 270px;
         background-repeat: no-repeat
     }
-    .ongr-sprite-circle-shopware{
-         background-image: url(../img/shopware-logo.png);
-         background-repeat: no-repeat
-     }
     .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
         background-image: url(../img/icon-sprites.png);
         background-size: 267px 240px
@@ -2636,16 +2692,14 @@ p:last-child {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 200 / 100), screen and (min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
-    .ongr-sprite-circle-oxid{
-        background-image: url(../img/oxi_logo.png);
+    .ongr-sprite-symfony{
+        background-image: url(../img/symfony.png);
+        background-size: 270px;
         background-repeat: no-repeat
     }
-    .ongr-sprite-circle-magento{
-        background-image: url(../img/magento.png);
-        background-repeat: no-repeat
-    }
-    .ongr-sprite-circle-shopware{
-        background-image: url(../img/shopware-logo.png);
+    .ongr-sprite-elasticsearch{
+        background-image: url(../img/elasticsearch.png);
+        background-size: 270px;
         background-repeat: no-repeat
     }
     .ongr-sprite-circle-download, .ongr-sprite-circle-more, .ongr-sprite-circle-port, .ongr-sprite-circle-scale, .ongr-sprite-icon-cost, .ongr-sprite-icon-github, .ongr-sprite-icon-performance, .ongr-sprite-icon-install, .ongr-sprite-icon-scale, .ongr-sprite-icon-seo, .ongr-sprite-icon-update, .ongr-sprite-icon-ux {
@@ -2657,13 +2711,87 @@ p:last-child {
     text-align: left;
     width: 25%;
 }
-@media screen and (max-width: 1000px) {
-    .imprint-column {
-        width: 45%;
-    }
-}
+
 @media screen and (max-width: 520px) {
     .imprint-column {
         width: 90%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .imprint-column {
+        width: 45%;
+    }
+
+    .ongr-sprite-symfony {
+        background-size: 200px;
+    }
+
+    .ongr-sprite-elasticsearch {
+        background-size: 200px;
+    }
+
+    .ongr-intro .intro-notebooks {
+        background-size: 400px;
+    }
+
+    .bundle-info {
+        height: auto;
+        margin-bottom: 10px;
+        max-height: 290px;
+    }
+
+    .ongr-enterprise .ongr-container-tech .enterprise-column .section-headline {
+        font-size: 50px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ongr-intro .intro-notebooks {
+        background-size: 400px;
+        height: 360px;
+        width: 100%
+    }
+
+    .ongr-intro .intro-text {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .ongr-intro .section-headline {
+        width: 86%;
+        margin-left: 7%;
+        margin-top: 0px;
+    }
+
+    .ongr-intro .intro-support .support-item {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .intro-support .built-for-column ul {
+        padding-left: 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .bundle-info {
+        max-height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ongr-intro .section-headline {
+        width: 100%;
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    .bundle-info {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 90%;
+        max-height: 350px;
     }
 }
